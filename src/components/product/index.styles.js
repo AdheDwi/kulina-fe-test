@@ -5,6 +5,7 @@ export const CardProduct = styled.div`
   border-radius: 8px;
   box-shadow: 0 8px 10px 0 rgba(10, 31, 68, 0.1);
   position: relative;
+  margin: 16px 0;
 `;
 
 export const CardProductHeader = styled.div`
@@ -81,6 +82,7 @@ export const AddButton = styled.button`
   align-items: center;
   justify-content: center;
   outline: none;
+  cursor: pointer;
   span {
     color: #fff;
     font-size: 14px;

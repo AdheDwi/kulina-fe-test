@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Paket Bakar Luber Kecap",
+    "image": "https://kln.imgix.net/production/1LGLK3YUT1-Paket%20Bakar%20Luber%20Kecap.jpeg?w=300",
+    "owner": "Serba Ayam",
+    "price": 36000,
+    "rating": 4.0
+  },
+  {
+    "id": 2,
+    "name": "Hemat Bakar Luber Kecap",
+    "image": "https://kln.imgix.net/production/3YYVRDMEGI-Paket%20Hemat%20Bakar%20Luber%20%281%29.jpg?w=300",
+    "owner": "Serba Ayam",
+    "price": 31000,
+    "rating": 5.0
+  },
+  {
+    "id": 3,
+    "name": "Meatball Sehat",
+    "image": "https://kln.imgix.net/production/2942941440703b77b4299a133bcda42a_Meatball_Tempe.jpg?w=300",
+    "owner": "Baso Asik",
+    "price": 30000,
+    "rating": 4.0
+  },
+  {
+    "id": 4,
+    "name": "Pampis Tongkol Mini",
+    "image": "https://kln.imgix.net/production/pampis-tongkol-mini.jpg?w=300",
+    "owner": "Kulina Basic",
+    "price": 20000,
+    "rating": 4.0
+  },
+  {
+    "id": 5,
+    "name": "Nasi Ayam Rica-rica",
+    "image": "https://kln.imgix.net/production/HJJFUW19C5-nasi-ayam-rica.jpg?w=300",
+    "owner": "",
+    "price": 25000,
+    "rating": 5.0
+  }
+]
