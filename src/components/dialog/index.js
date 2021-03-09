@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+
 import {
   DialogWrapper,
   DialogCard,
@@ -11,10 +13,11 @@ import {
   IconWrap,
   TextSearch,
 } from "./index.styles";
-
+import { setLocationAction } from "../../redux/actions/layout";
 import DataLocation from "./location.json";
 
-const DialogAddress = () => {
+const DialogAddress = (props) => {
+  const dispatch = useDispatch();
   const [searchList, setSearchList] = useState([]);
 
   let dataSearch;
@@ -30,11 +33,16 @@ const DialogAddress = () => {
     }
   };
 
+  const changeLocation = (name) => {
+    dispatch(setLocationAction(name));
+    props.setDialogOpen();
+  };
+
   return (
     <DialogWrapper>
       <DialogCard>
         <DialogHeader>
-          <button>
+          <button onClick={props.setDialogOpen}>
             <span className="material-icons">close</span>
           </button>
         </DialogHeader>
@@ -49,7 +57,10 @@ const DialogAddress = () => {
           </DialogInput>
           <SearchWrapper>
             {searchList?.map((location) => (
-              <SearchList key={location.id}>
+              <SearchList
+                key={location.id}
+                onClick={() => changeLocation(location.name)}
+              >
                 <IconWrap>
                   <span className="material-icons">location_on</span>
                 </IconWrap>

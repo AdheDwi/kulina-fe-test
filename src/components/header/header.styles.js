@@ -62,12 +62,17 @@ export const BottomHeader = styled.div`
 export const DateWrapper = styled.div`
   width: 100%;
   overflow-x: scroll;
+  ::-webkit-scrollbar {
+    height: 3px;
+  }
 `;
 export const ScrollWrapper = styled.div`
-  width: 700px;
+  width: 800px;
   display: flex;
   flex-direction: row;
+  padding: 0 0 8px;
 `;
+
 export const ButtonDate = styled.button`
   width: 50px;
   height: 50px;
@@ -82,8 +87,13 @@ export const ButtonDate = styled.button`
   border-width: 1px;
   border-style: solid;
   border-color: ${(props) => (props.active ? "#424749" : "#f1f1f2")};
-  background-color: ${(props) => (props.active ? "#424749" : "#ffffff")};
-  color: ${(props) => (props.active ? "#ffffff" : "#424749")};
+  background-color: ${(props) =>
+    props.active ? "#424749" : props.thisDisable ? "#f1f1f2" : "#ffffff"};
+  color: ${(props) =>
+    props.active ? "#ffffff" : props.thisDisable ? "#6e7679" : "#424749"};
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
   &:first-child {
     margin-left: 0;
   }
@@ -94,6 +104,7 @@ export const ButtonDate = styled.button`
     margin-top: 4px;
     font-weight: 600;
     font-size: 14px;
-    color: ${(props) => (props.active ? "#ffffff" : "#424749")};
+    color: ${(props) =>
+      props.active ? "#ffffff" : props.thisDisable ? "#6e7679" : "#424749"};
   }
 `;

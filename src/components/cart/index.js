@@ -1,4 +1,6 @@
 import React from "react";
+import { useSelector } from "react-redux";
+import NumberFormat from "react-number-format";
 import {
   CartCardWrapper,
   CartCard,
@@ -8,12 +10,21 @@ import {
   CartLink,
 } from "./index.styles";
 
-const CartPopup = (props) => {
+const CartPopup = () => {
+  const { sumPrice, items } = useSelector((state) => state.cart);
   return (
     <CartCardWrapper>
       <CartCard>
         <CartItems>
-          <CartText>3 Items | Rp 60000</CartText>
+          <CartText>
+            {items?.length} {`Item${items.length > 1 ? "s" : ""}`} |{" "}
+            <NumberFormat
+              prefix={"Rp "}
+              thousandSeparator
+              displayType="text"
+              value={sumPrice}
+            />
+          </CartText>
           <CartInfo>Termasuk ongkos kirim</CartInfo>
         </CartItems>
         <CartLink href="#">

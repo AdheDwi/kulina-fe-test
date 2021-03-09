@@ -14,6 +14,8 @@ export const TabButton = styled.button`
   background-color: ${(props) => (props.active ? "#424749" : "#ffffff")};
   color: ${(props) => (props.active ? "#ffffff" : "#424749")};
   font-size: 14px;
+  outline: none;
+  cursor: pointer;
   &:first-child {
     border-radius: 4px 0 0 4px;
   }
@@ -26,4 +28,8 @@ export const DateText = styled.h1`
   font-size: 16px;
   font-weight: 700;
   color: #424749;
+`;
+export const ProductWrapper = styled.div`
+  padding: ${(props) =>
+    props.cartActive ? "144px 16px 100px" : "144px 16px 16px"};
 `;

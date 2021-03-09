@@ -1,0 +1,4 @@
+export const LAYOUT_SET_LOCATION = "LAYOUT_SET_LOCATION";
+export const LAYOUT_SET_DATE = "LAYOUT_SET_DATE";
+
+export const ADD_CART = "ADD_CART";

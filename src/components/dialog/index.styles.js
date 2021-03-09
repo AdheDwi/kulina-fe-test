@@ -8,6 +8,8 @@ export const DialogWrapper = styled.div`
   bottom: 0;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 5s;
+  transition: 5s;
 `;
 
 export const DialogCard = styled.div`
@@ -66,15 +68,19 @@ export const DialogInput = styled.div`
     border: 1px solid #f1f1f2;
   }
 `;
+
 export const SearchWrapper = styled.div`
   width: 100%;
   overflow: scroll;
 `;
+
 export const SearchList = styled.div`
   display: flex;
   padding: 0 6px;
   margin-bottom: 16px;
+  cursor: pointer;
 `;
+
 export const IconWrap = styled.div`
   display: flex;
   justify-content: center;
@@ -90,6 +96,7 @@ export const IconWrap = styled.div`
     font-size: 22px;
   }
 `;
+
 export const TextSearch = styled.div`
   padding-bottom: 16px;
   border-bottom: 1px solid #f1f1f2;

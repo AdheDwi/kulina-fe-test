@@ -1,5 +1,6 @@
 import React from "react";
 import NumberFormat from "react-number-format";
+import { useDispatch } from "react-redux";
 import {
   CardProduct,
   CardProductHeader,
@@ -14,8 +15,11 @@ import {
 } from "./index.styles";
 
 import DataProducts from "./product.json";
+import { addCartAction } from "../../redux/actions/cart";
 
 const Products = (props) => {
+  const dispatch = useDispatch();
+
   return (
     <>
       {DataProducts.map((product) => (
@@ -37,7 +41,7 @@ const Products = (props) => {
                 value={product.price}
                 renderText={(value) => <ProductPrice>{value}</ProductPrice>}
               />
-              <AddButton>
+              <AddButton onClick={() => dispatch(addCartAction(product))}>
                 Add <span className="material-icons">add</span>
               </AddButton>
             </ProductAction>
