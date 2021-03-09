@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Jakarta Pusat",
+    "detail": "Jakarta Pusat, DKI Jakarta - Indonesia"
+  },
+  {
+    "id": 2,
+    "name": "Jakarta Timur",
+    "detail": "Jakarta Timur, DKI Jakarta - Indonesia"
+  },
+  {
+    "id": 3,
+    "name": "Jakarta Barat",
+    "detail": "Jakarta Barat, DKI Jakarta - Indonesia"
+  },
+  {
+    "id": 4,
+    "name": "Jakarta Utara",
+    "detail": "Jakarta Utara, DKI Jakarta - Indonesia"
+  },
+  {
+    "id": 5,
+    "name": "Bandung",
+    "detail": "Bandung, Jawa Barat - Indonesia"
+  },
+  {
+    "id": 6,
+    "name": "Bogor",
+    "detail": "Bogor, Jawa Barat - Indonesia"
+  },
+  {
+    "id": 7,
+    "name": "Indramayu",
+    "detail": "Indramayu, Jawa Barat - Indonesia"
+  },
+  {
+    "id": 8,
+    "name": "Cirebon",
+    "detail": "Cirebon, Jawa Barat - Indonesia"
+  }
+]

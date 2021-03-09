@@ -25,7 +25,7 @@ const Products = (props) => {
           </CardProductHeader>
           <CardProductBody>
             <ProductRating>
-              {product.rating} <span className="material-icons">start</span>;
+              {product.rating} <span className="material-icons">start</span>
             </ProductRating>
             <ProductTitle>{product.name}</ProductTitle>
             <ProductOwner>by Kulina &bull; {product.owner}</ProductOwner>

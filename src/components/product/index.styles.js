@@ -33,7 +33,7 @@ export const ProductImage = styled.img`
 `;
 
 export const ProductRating = styled.div`
-  color: #424749;
+  color: #6e7679;
   font-size: 14px;
   margin-bottom: 8px;
   display: flex;
@@ -48,7 +48,7 @@ export const ProductRating = styled.div`
 export const ProductTitle = styled.h1`
   color: #424749;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
 `;
 
 export const ProductOwner = styled.span`
@@ -66,7 +66,7 @@ export const ProductAction = styled.div`
 export const ProductPrice = styled.span`
   font-size: 16px;
   color: #424749;
-  font-weight: 700;
+  font-weight: 600;
 `;
 export const AddButton = styled.button`
   padding: 8px 16px;
