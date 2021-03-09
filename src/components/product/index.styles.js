@@ -41,7 +41,10 @@ export const ProductRating = styled.div`
   span {
     color: #f9423a;
     font-size: 16px;
-    margin-left: 4px;
+    width: 14px;
+    &:first-child {
+      margin-left: 4px;
+    }
   }
 `;
 
