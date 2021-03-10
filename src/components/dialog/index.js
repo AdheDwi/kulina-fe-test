@@ -51,7 +51,7 @@ const DialogAddress = (props) => {
           <DialogInput>
             <span className="material-icons">location_on</span>
             <input
-              placeholder="Cari lokasimu"
+              placeholder="Cari lokasimu, contoh: jakarta"
               onChange={(e) => changeSearch(e.target.value)}
             />
           </DialogInput>
