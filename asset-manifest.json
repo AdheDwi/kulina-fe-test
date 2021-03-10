@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kulina-test-fe/static/css/main.fb5ba55d.chunk.css",
-    "main.js": "/kulina-test-fe/static/js/main.a4d753ea.chunk.js",
-    "main.js.map": "/kulina-test-fe/static/js/main.a4d753ea.chunk.js.map",
-    "runtime-main.js": "/kulina-test-fe/static/js/runtime-main.8cea3424.js",
-    "runtime-main.js.map": "/kulina-test-fe/static/js/runtime-main.8cea3424.js.map",
-    "static/js/2.0d306dd6.chunk.js": "/kulina-test-fe/static/js/2.0d306dd6.chunk.js",
-    "static/js/2.0d306dd6.chunk.js.map": "/kulina-test-fe/static/js/2.0d306dd6.chunk.js.map",
-    "index.html": "/kulina-test-fe/index.html",
-    "static/css/main.fb5ba55d.chunk.css.map": "/kulina-test-fe/static/css/main.fb5ba55d.chunk.css.map",
-    "static/js/2.0d306dd6.chunk.js.LICENSE.txt": "/kulina-test-fe/static/js/2.0d306dd6.chunk.js.LICENSE.txt"
+    "main.css": "/kulina-fe-test/static/css/main.fb5ba55d.chunk.css",
+    "main.js": "/kulina-fe-test/static/js/main.2103e1bc.chunk.js",
+    "main.js.map": "/kulina-fe-test/static/js/main.2103e1bc.chunk.js.map",
+    "runtime-main.js": "/kulina-fe-test/static/js/runtime-main.2653841f.js",
+    "runtime-main.js.map": "/kulina-fe-test/static/js/runtime-main.2653841f.js.map",
+    "static/js/2.e87067bd.chunk.js": "/kulina-fe-test/static/js/2.e87067bd.chunk.js",
+    "static/js/2.e87067bd.chunk.js.map": "/kulina-fe-test/static/js/2.e87067bd.chunk.js.map",
+    "index.html": "/kulina-fe-test/index.html",
+    "static/css/main.fb5ba55d.chunk.css.map": "/kulina-fe-test/static/css/main.fb5ba55d.chunk.css.map",
+    "static/js/2.e87067bd.chunk.js.LICENSE.txt": "/kulina-fe-test/static/js/2.e87067bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8cea3424.js",
-    "static/js/2.0d306dd6.chunk.js",
+    "static/js/runtime-main.2653841f.js",
+    "static/js/2.e87067bd.chunk.js",
     "static/css/main.fb5ba55d.chunk.css",
-    "static/js/main.a4d753ea.chunk.js"
+    "static/js/main.2103e1bc.chunk.js"
   ]
 }
