@@ -25,7 +25,7 @@ const DialogAddress = (props) => {
   const changeSearch = (value) => {
     if (value.trim() && value.length > 2) {
       dataSearch = DataLocation.filter((location) =>
-        location.name.includes(value)
+        location.name.toUpperCase().includes(value.toUpperCase())
       );
       setSearchList(dataSearch);
     } else {
