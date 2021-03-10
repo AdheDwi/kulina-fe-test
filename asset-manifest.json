@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kulina-fe-test/static/css/main.fb5ba55d.chunk.css",
+    "main.js": "/kulina-fe-test/static/js/main.2103e1bc.chunk.js",
+    "main.js.map": "/kulina-fe-test/static/js/main.2103e1bc.chunk.js.map",
+    "runtime-main.js": "/kulina-fe-test/static/js/runtime-main.2653841f.js",
+    "runtime-main.js.map": "/kulina-fe-test/static/js/runtime-main.2653841f.js.map",
+    "static/js/2.e87067bd.chunk.js": "/kulina-fe-test/static/js/2.e87067bd.chunk.js",
+    "static/js/2.e87067bd.chunk.js.map": "/kulina-fe-test/static/js/2.e87067bd.chunk.js.map",
+    "index.html": "/kulina-fe-test/index.html",
+    "static/css/main.fb5ba55d.chunk.css.map": "/kulina-fe-test/static/css/main.fb5ba55d.chunk.css.map",
+    "static/js/2.e87067bd.chunk.js.LICENSE.txt": "/kulina-fe-test/static/js/2.e87067bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2653841f.js",
+    "static/js/2.e87067bd.chunk.js",
+    "static/css/main.fb5ba55d.chunk.css",
+    "static/js/main.2103e1bc.chunk.js"
+  ]
+}
