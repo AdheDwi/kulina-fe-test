@@ -10,4 +10,5 @@ In the project directory, you can run:
 4. open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
 ## Note
-Please use Node.js (v10 or higher) npm (v6.5 or higher)
+1. Please use Node.js (v10 or higher) and npm (v6.5 or higher)
+2. Please input `jak` on search form
